@@ -1,33 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #3d8268; /* Couleur de fond principale du logo */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #2d533e; /* Couleur de la bannière */
+    background-color: #2d533e;
     color: #fff;
-    padding: 2rem;
-    text-align: center;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 .logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 150px; /* Augmenter la taille du logo */
-    height: 150px;
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
 }
 
 header h1 {
-    font-size: 3rem; /* Augmentez la taille de la police du titre */
+    font-size: 2rem;
     margin: 0;
+    flex-grow: 1;
 }
 
 nav ul {
@@ -45,6 +43,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 section {
@@ -53,11 +52,11 @@ section {
 }
 
 h1, h2, h3 {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
-    background-color: #2d533e; /* Couleur de la bannière */
+    background-color: #2d533e;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -82,14 +81,14 @@ form input, form textarea {
 form button {
     padding: 0.7rem;
     border: none;
-    background-color: #2d533e; /* Couleur de la bannière */
+    background-color: #2d533e;
     color: #fff;
     cursor: pointer;
     border-radius: 4px;
 }
 
 form button:hover {
-    background-color: #3d8268; /* Autre couleur du logo */
+    background-color: #3d8268;
 }
 
 .gallery {
