@@ -1,16 +1,19 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Remplacez par la couleur de fond de votre logo */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* Remplacez par la couleur de la bannière de votre logo */
     color: #fff;
     padding: 2rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -18,8 +21,8 @@ header {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 50px;
-    height: 50px;
+    width: 100px; /* Augmentez la taille du logo */
+    height: 100px;
 }
 
 header h1 {
@@ -30,11 +33,13 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 1rem;
 }
 
 nav ul li a {
@@ -52,7 +57,7 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #333; /* Remplacez par la couleur de la bannière de votre logo */
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -77,14 +82,14 @@ form input, form textarea {
 form button {
     padding: 0.7rem;
     border: none;
-    background-color: #333;
+    background-color: #333; /* Remplacez par la couleur de la bannière de votre logo */
     color: #fff;
     cursor: pointer;
     border-radius: 4px;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #555; /* Remplacez par une autre couleur de votre logo */
 }
 
 .gallery {
@@ -98,4 +103,3 @@ form button:hover {
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-
