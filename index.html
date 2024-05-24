@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo" class="logo">
-        <h1>L'Oiseau Oisif</h1>
+        <a href="index.html"><img src="Capture d’écran 2024-05-24 à 15.01.22.png" alt="Logo" class="logo"></a>
+        <a href="index.html"><h1>L'Oiseau Oisif</h1></a>
         <nav>
             <ul>
                 <li><a href="#about">À propos</a></li>
@@ -21,46 +21,62 @@
     </header>
 
     <section id="about">
-        <h2>À propos</h2>
-        <p>Bienvenue sur le portfolio de L'Oiseau Oisif. Je suis un artiste polyvalent avec un parcours diversifié dans les arts visuels. Mon travail explore différentes techniques et styles, reflétant mon intérêt pour l'innovation et l'expression créative.</p>
+        <div class="content-wrapper">
+            <h2>À propos</h2>
+            <p>Bienvenue sur le portfolio de L'Oiseau Oisif. Je suis un artiste polyvalent avec un parcours diversifié dans les arts visuels. Mon travail explore différentes techniques et styles, reflétant mon intérêt pour l'innovation et l'expression créative.</p>
+        </div>
     </section>
 
     <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-category">
-            <h3>Dessins</h3>
-            <div class="gallery">
-                <img src="438158259_1456943531849081_2049135987464449501_n.jpg" alt="Dessin 1">
-                <img src="441366258_417133404525526_4159201632970746445_n.jpg" alt="Dessin 2">
-                <img src="441909970_1362521031096054_1850545901394403655_n.jpg" alt="Dessin 3">
+        <div class="content-wrapper">
+            <h2>Portfolio</h2>
+            <div class="portfolio-category">
+                <h3>Dessins</h3>
+                <div class="gallery">
+                    <img src="438158259_1456943531849081_2049135987464449501_n.jpg" alt="Dessin 1">
+                    <img src="441366258_417133404525526_4159201632970746445_n.jpg" alt="Dessin 2">
+                    <img src="441909970_1362521031096054_1850545901394403655_n.jpg" alt="Dessin 3">
+                </div>
             </div>
-        </div>
-        <div class="portfolio-category">
-            <h3>Photos</h3>
-            <!-- Galerie de photos -->
-        </div>
-        <div class="portfolio-category">
-            <h3>Vidéos</h3>
-            <!-- Lecteur vidéo intégré -->
+            <div class="portfolio-category">
+                <h3>Photos</h3>
+                <!-- Ajouter des photos ici -->
+                <div class="gallery">
+                    <img src="photo1.jpg" alt="Photo 1">
+                    <img src="photo2.jpg" alt="Photo 2">
+                </div>
+            </div>
+            <div class="portfolio-category">
+                <h3>Vidéos</h3>
+                <!-- Lecteur vidéo intégré -->
+                <video controls width="320" height="240">
+                    <source src="video.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo HTML5.
+                </video>
+            </div>
         </div>
     </section>
 
     <section id="blog">
-        <h2>Blog</h2>
-        <!-- Articles de blog -->
+        <div class="content-wrapper">
+            <h2>Blog</h2>
+            <!-- Articles de blog -->
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+        <div class="content-wrapper">
+            <h2>Contact</h2>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -70,4 +86,3 @@
     <script src="scripts.js"></script>
 </body>
 </html>
-
