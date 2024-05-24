@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: rgba(45, 83, 62, 0.8); /* Couleur de la bannière avec opacité */
+    background-color: rgba(45, 83, 62, 0.9); /* Couleur de la bannière avec opacité augmentée */
     color: #fff;
     padding: 1rem 2rem;
     display: flex;
@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-    width: 150px; /* Augmenter la taille du logo */
+    width: 80px; /* Réduire la taille du logo */
     height: auto;
     margin-right: 1rem;
 }
@@ -56,7 +56,7 @@ section {
 }
 
 .content-wrapper {
-    background: rgba(255, 255, 255, 0.8); /* Arrière-plan blanc semi-transparent */
+    background: rgba(255, 255, 255, 0.95); /* Arrière-plan blanc avec opacité augmentée */
     padding: 1rem;
     border-radius: 8px;
 }
@@ -66,7 +66,7 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: rgba(45, 83, 62, 0.8); /* Couleur de la bannière avec opacité */
+    background-color: rgba(45, 83, 62, 0.9); /* Couleur de la bannière avec opacité augmentée */
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -91,7 +91,7 @@ form input, form textarea {
 form button {
     padding: 0.7rem;
     border: none;
-    background-color: rgba(45, 83, 62, 0.8); /* Couleur de la bannière avec opacité */
+    background-color: rgba(45, 83, 62, 0.9); /* Couleur de la bannière avec opacité augmentée */
     color: #fff;
     cursor: pointer;
     border-radius: 4px;
@@ -108,10 +108,9 @@ form button:hover {
 }
 
 .gallery img {
-    max-width: 100%;
+    max-width: 10%; /* Réduire la taille des dessins */
     height: auto;
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-
 
