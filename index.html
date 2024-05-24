@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OiseauOisif Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>OiseauOisif</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Bienvenue sur mon portfolio. Je suis un artiste polyvalent et voici mon travail.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-category">
+            <h3>Dessins</h3>
+            <div class="gallery">
+                <img src="438158259_1456943531849081_2049135987464449501_n.jpg" alt="Dessin 1">
+                <img src="441366258_417133404525526_4159201632970746445_n.jpg" alt="Dessin 2">
+                <img src="441909970_1362521031096054_1850545901394403655_n.jpg" alt="Dessin 3">
+            </div>
+        </div>
+        <div class="portfolio-category">
+            <h3>Photos</h3>
+            <!-- Galerie de photos -->
+        </div>
+        <div class="portfolio-category">
+            <h3>Vidéos</h3>
+            <!-- Lecteur vidéo intégré -->
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <!-- Articles de blog -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OiseauOisif. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
