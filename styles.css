@@ -117,3 +117,25 @@ form button:hover {
     border: 2px solid #ccc;
     border-radius: 8px;
 }
+/* Styles spécifiques à la page d'accueil */
+
+.accueil {
+    text-align: center; /* Centrer le contenu horizontalement */
+    padding: 50px; /* Ajoute un espace autour du contenu */
+}
+
+.logo {
+    width: 300px; /* Taille du logo en grand */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px; /* Ajoute un espace entre le message et le bouton */
+}
+
