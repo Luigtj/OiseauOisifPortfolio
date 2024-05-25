@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="Capture d’écran 2024-05-24 à 15.01.22.png" alt="Logo" class="logo"></a>
+        <a href="index.html"><img src="logo.png" alt="Logo" class="logo"></a>
         <nav>
             <ul>
                 <li><a href="#about">À propos</a></li>
@@ -18,29 +18,61 @@
         </nav>
     </header>
 
-    <!-- Nouvelle section de la page d'accueil -->
-    <div class="accueil">
-        <img src="path_to_your_large_logo.png" alt="Logo de mon site" class="logo">
-        <h1>Bienvenue sur le site de L'Oiseau Oisif !</h1>
-        <p>Découvrez mes créations artistiques et explorez mon univers créatif.</p>
-        <a href="index.html" class="btn">Entrer dans le site</a>
-    </div>
-
-    <!-- Le reste du contenu de ta page index.html -->
     <section id="about">
-        <!-- Contenu de la section "À propos" -->
+        <div class="content-wrapper">
+            <h2>À propos</h2>
+            <p>Bienvenue sur le portfolio de L'Oiseau Oisif. Je suis un artiste polyvalent avec un parcours diversifié dans les arts visuels. Mon travail explore différentes techniques et styles, reflétant mon intérêt pour l'innovation et l'expression créative.</p>
+        </div>
     </section>
 
     <section id="portfolio">
-        <!-- Contenu de la section "Portfolio" -->
+        <div class="content-wrapper">
+            <h2>Portfolio</h2>
+            <div class="portfolio-category">
+                <h3>Dessins</h3>
+                <div class="gallery">
+                    <img src="438158259_1456943531849081_2049135987464449501_n.jpg" alt="Dessin 1">
+                    <img src="441366258_417133404525526_4159201632970746445_n.jpg" alt="Dessin 2">
+                    <img src="441909970_1362521031096054_1850545901394403655_n.jpg" alt="Dessin 3">
+                </div>
+            </div>
+            <div class="portfolio-category">
+                <h3>Photos</h3>
+                <div class="gallery">
+                    <img src="photo1.jpg" alt="Photo 1">
+                    <img src="photo2.jpg" alt="Photo 2">
+                </div>
+            </div>
+            <div class="portfolio-category">
+                <h3>Vidéos</h3>
+                <video controls width="320" height="240">
+                    <source src="video.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo HTML5.
+                </video>
+            </div>
+        </div>
     </section>
 
     <section id="blog">
-        <!-- Contenu de la section "Blog" -->
+        <div class="content-wrapper">
+            <h2>Blog</h2>
+            <!-- Articles de blog -->
+        </div>
     </section>
 
     <section id="contact">
-        <!-- Contenu de la section "Contact" -->
+        <div class="content-wrapper">
+            <h2>Contact</h2>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     </section>
 
     <footer>
