@@ -22,9 +22,8 @@ header {
 }
 
 .logo {
-    width: 100px; /* Réduire la taille du logo */
+    width: 80px; /* Réduire la taille du logo */
     height: auto;
-    float: left; /* Aligner le logo à gauche */
 }
 
 nav ul {
@@ -44,13 +43,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
-.logo:hover {
-  transform: scale(1.1); /* Agrandir le logo de 10% au survol */
-}
 
-nav ul li:hover {
-  transform: scale(1.1); /* Agrandir les onglets de navigation de 10% au survol */
-}
 section {
     padding: 2rem;
     border-bottom: 1px solid #ccc;
@@ -117,25 +110,3 @@ form button:hover {
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-/* Styles spécifiques à la page d'accueil */
-
-.accueil {
-    text-align: center; /* Centrer le contenu horizontalement */
-    padding: 50px; /* Ajoute un espace autour du contenu */
-}
-
-.logo {
-    width: 300px; /* Taille du logo en grand */
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 20px; /* Ajoute un espace entre le message et le bouton */
-}
-
