@@ -18,19 +18,12 @@ header {
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Espacement entre le logo et la navigation */
 }
 
 .logo {
     width: 80px; /* Réduire la taille du logo */
     height: auto;
-    margin-right: 1rem;
-}
-
-header h1 {
-    font-size: 2rem;
-    margin: 0;
-    flex-grow: 1;
-    color: #fff;
 }
 
 nav ul {
