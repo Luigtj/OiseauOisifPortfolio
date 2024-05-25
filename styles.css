@@ -117,3 +117,39 @@ form button:hover {
     border: 2px solid #ccc;
     border-radius: 8px;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9; /* Couleur de fond pour la page d'accueil */
+}
+
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Pleine hauteur de la fenêtre */
+}
+
+.logo {
+    width: 150px; /* Taille du logo */
+    height: auto;
+    margin-bottom: 30px; /* Espacement entre le logo et le bouton */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3d8268;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animation pour le changement de couleur au survol */
+}
+
+button:hover {
+    background-color: #2d533e;
+}
+
