@@ -44,7 +44,13 @@ nav ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
+.logo:hover {
+  transform: scale(1.1); /* Agrandir le logo de 10% au survol */
+}
 
+nav ul li:hover {
+  transform: scale(1.1); /* Agrandir les onglets de navigation de 10% au survol */
+}
 section {
     padding: 2rem;
     border-bottom: 1px solid #ccc;
