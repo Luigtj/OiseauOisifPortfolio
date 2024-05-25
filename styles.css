@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    width: 200px; /* Réduire la taille du logo */
+    width: 100px; /* Réduire la taille du logo */
     height: auto;
     float: left; /* Aligner le logo à gauche */
 }
