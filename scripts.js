@@ -15,3 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+document.getElementById("enterButton").addEventListener("click", function() {
+    window.location.href = "main.html"; // Rediriger vers la page principale
+});
