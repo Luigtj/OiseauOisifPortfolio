@@ -24,6 +24,7 @@ header {
 .logo {
     width: 200px; /* Réduire la taille du logo */
     height: auto;
+    float: left; /* Aligner le logo à gauche */
 }
 
 nav ul {
@@ -110,4 +111,3 @@ form button:hover {
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-
