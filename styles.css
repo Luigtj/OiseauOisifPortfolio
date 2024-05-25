@@ -6,7 +6,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgba(255, 255, 255, 0.8); /* Ajout d'une couleur de fond pour augmenter la lisibilité */
+    background-color: rgba(255, 255, 255, 0.9); /* Ajout d'une couleur de fond pour augmenter la lisibilité */
     color: #333;
     margin: 0;
     padding: 0;
@@ -58,7 +58,7 @@ section {
 }
 
 .content-wrapper {
-    background: rgba(255, 255, 255, 0.9); /* Arrière-plan blanc avec opacité élevée */
+    background: rgba(255, 255, 255, 0.95); /* Arrière-plan blanc avec opacité élevée */
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour détacher les sections du fond */
